@@ -58,7 +58,7 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px; max-width: 1199px;) {
   header {
     background-color: blue;
   }
@@ -72,11 +72,16 @@ footer {
   }
 
   #column-3 {
-    background-color: silver;
+    background-color: #999;
+    width: 100%;
   }
 
   footer {
-    background-color: gold;
+    background-color: #666;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
 }
@@ -102,6 +107,9 @@ footer {
 
   footer {
     background-color: indigo;
+  }
+  .col-3 {
+    width: 33.33%;
   }
 
 }
